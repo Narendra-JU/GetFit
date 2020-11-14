@@ -85,6 +85,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_32sdp"
         android:layout_marginTop="@dimen/_32sdp"
+        android:src="@android:drawable/ic_btn_speak_now"
         android:text="START"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewlapText" />
@@ -97,6 +98,7 @@
         android:layout_height="wrap_content"
         android:text="NEW LAP"
         android:layout_margin="@dimen/_10sdp"
+        android:src="@android:drawable/ic_btn_speak_now"
         android:layout_marginEnd="@dimen/_64sdp"
         app:layout_constraintBaseline_toBaselineOf="@+id/buttonStart"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -106,6 +108,7 @@
         android:layout_width="@dimen/_100sdp"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_16sdp"
+        android:src="@android:drawable/ic_btn_speak_now"
         android:text="RESET"
         app:layout_constraintStart_toStartOf="@+id/buttonStart"
         app:layout_constraintTop_toBottomOf="@+id/buttonStart" />
@@ -114,7 +117,7 @@
         android:id="@+id/buttonStats"
         android:layout_width="@dimen/_100sdp"
         android:layout_height="wrap_content"
-
+        android:src="@android:drawable/ic_btn_speak_now"
         android:layout_marginTop="@dimen/_16sdp"
         android:text="STATS"
         app:layout_constraintStart_toStartOf="@+id/buttonNewLap"

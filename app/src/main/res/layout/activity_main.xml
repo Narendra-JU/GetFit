@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/custom_background_mainactivity"
+    android:id="@+id/mainscreen"
     tools:context=".MainActivity">
 
 
@@ -13,13 +14,12 @@
         android:layout_width="@dimen/_200sdp"
         android:layout_height="@dimen/_200sdp"
 
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:src="@drawable/getfitpng"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/getfitpng"
-        android:src="@drawable/getfitpng"
-         />
+        app:srcCompat="@drawable/getfitpng" />
 
     <TextView
         android:id="@+id/textView"
